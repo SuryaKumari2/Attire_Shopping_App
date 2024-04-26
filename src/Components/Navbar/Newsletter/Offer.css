@@ -1,0 +1,35 @@
+.offer{
+    width: 85%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 30px;
+    padding: 0px 0px;
+    border-radius: 10px;
+    background:linear-gradient(135deg,rgb(162, 162, 231) 0%,pink 60%) ;
+    gap:10px
+
+
+}
+.offer h1{
+    color: #454545;
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.9);
+    font-size: 65px;
+    font-weight: 900;
+}
+.offer p{
+    color: #454545;
+    font-size: 20px;
+    font-weight: 800;
+
+}
+.offer div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+   
+}

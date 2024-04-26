@@ -1,0 +1,113 @@
+.in-page {
+    display: flex;
+  }
+  
+  .in-left {
+ 
+    padding: 30px;
+    display: flex;
+    border-radius: 10px;
+    flex-direction: 1;
+    align-items: center;
+    margin: 30px;
+    gap: 50px;
+    margin-left: 50px;
+    margin-right: 0px;
+  }
+  .in-mid{
+    flex: 1;
+    padding-left: 10px;
+  }
+  .in-right {
+    flex: 1;
+    padding-left: 20px; /* Adjust spacing as needed */
+  }
+  
+  .in-side-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+  }
+  
+  .in-side-box img {
+    width: 100px; /* Width of small images */
+    height: 250px;
+    margin-bottom: 10px;
+  }
+  
+  .in-img-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid salmon;
+    padding-top: 40px;
+    padding-bottom: 40px;
+   
+    margin-top: 30px;
+    border-radius: 10px;
+  }
+  
+  .in-img {
+   width: 35%;
+   height: 500px;
+    
+  }
+  .in-right{
+    padding: 100px;
+  }
+  .in-model{
+    font-size: 30px;
+    font-weight: 900;
+   
+  }
+
+  .in-descri{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  .ratings{
+    font-size: 15px;
+    font-weight: 700;
+    padding: 10px;
+    color: green;
+    border: 1px solid green;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  .cart-btn{
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: rgb(248, 48, 158);
+    outline: none;
+    border: none;
+    width: 200px;
+    padding: 15px;
+    margin-top: 50px;
+    
+    border-radius: 20px;
+  }
+  .cart-btn:hover{
+    background: rgb(66, 66, 163);
+  }
+  .cart-btn:active{
+    background-color: rgb(247, 16, 54);
+  }
+  .in-price{
+    color:orange;
+    margin: 10px;
+    font-size: 30px;
+    font-weight: 800;
+  }
+.in-off{
+    color:yellowgreen;
+    font-size: 15px;
+    
+}
+.in-right p{
+    color: green;
+    font-size: 15px;
+    font-weight: 800;
+}
